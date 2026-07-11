@@ -1,7 +1,6 @@
 # Multi-objective Prompt Learning for Clinical Case Summarization
 
-This repository contains the code for clinical (biomedical) lay-summarization experiments on the **BioLaySumm "Short"** dataset. It compares several prompt-optimization strategies — **APO**, **ISP**, **Zero-Shot**, and genetic/multi-objective prompt search (**Worst-to-Good**, **Good-to-Good**, **MultiGood**) — across four open LLMs (`qwen2.5`, `qwen3`, `ministral_8b`, `llama3.1_8b`), reporting ROUGE-L, BERTScore-F1, a combined summarization score, grammar, and textual-entailment metrics.
-
+This repository contains the code for clinical (biomedical) summarization experiments on the **MULTICLINSUMM "GOLD"** dataset. It compares several prompt-optimization strategies — **APO**, **ISP**, **Zero-Shot**, and genetic/multi-objective prompt search (**Worst-to-Good**, **Good-to-Good**, **MultiGood**) — across four open LLMs (`qwen2.5`, `qwen3`, `ministral_8b`, `llama3.1_8b`), reporting ROUGE-L-F1, BERTScore-F1, a combined summarization score and grammar Score.
 ## Required Setup
 
 1. **WandB Key:** Set up your own [Weights & Biases](https://wandb.ai/) account and add your API key in the notebook/code (used by the genetic-search notebooks in `Worst to Good/`, `Good to Good/`, and `MultiGood/`).
