@@ -1,4 +1,4 @@
-# Multi-objective Prompt Learning for Clinical Case Summarization
+# Multi-objective Prompt Optimization for Clinical Case Summarization
 
 This repository contains the code for clinical (biomedical) summarization experiments on the **MULTICLINSUMM "GOLD"** dataset. It compares several prompt-optimization strategies — **APO**, **ISP**, **Zero-Shot**, and genetic/multi-objective prompt search (**Worst-to-Good**, **Good-to-Good**, **MultiGood**) — across four open LLMs (`qwen2.5`, `qwen3`, `ministral_8b`, `llama3.1_8b`), reporting ROUGE-L-F1, BERTScore-F1, a combined summarization score and grammar Score.
 ## Required Setup
