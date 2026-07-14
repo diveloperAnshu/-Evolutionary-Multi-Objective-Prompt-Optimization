@@ -34,3 +34,5 @@ Update the value in your script or notebook as needed.
 * Adjust parameters for your experiments as needed.
 * Refer to comments in the code for locations to update prompts, keys, and parameters.
 * Run all cells top to bottom; results (CSVs, best prompt, metrics JSON, and plots) are written to the working directory / `logs` folder.
+
+We have also given the dataset for you to use. It is in zip format, You can find the clincial cases in fulltext and the corresponding summary in the Summaries folder.
